@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #7c6b6b4b;
+}
+h1 {
+    color: #333;
+    text-align: center;
+}
+.section {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+.input-group {
+    margin-bottom: 15px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"], input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+button:hover {
+    background-color: #45a049;
+}
+.people-list, .items-list {
+    margin-top: 10px;
+}
+.person-tag, .item-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f9f9f9;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.delete-btn {
+    background-color: #f44336;
+    padding: 5px 10px;
+    font-size: 12px;
+}
+.checkbox-group {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-top: 10px;
+}
+.checkbox-item {
+    display: flex;
+    align-items: center;
+}
+.results {
+    margin-top: 20px;
+}
+.result-item {
+    background-color: #e8f5e9;
+    padding: 10px;
+    border-radius: 4px;
+    margin-bottom: 5px;
+}
+.highlight {
+    font-weight: bold;
+    color: #2e7d32;
+}
+
+.service-tax-info {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.tax-amount {
+    color: #d32f2f;
+    font-weight: bold;
+}
+
+.clear-btn {
+    background-color: #ff9800;
+    margin-top: 20px;
+
+}
+
+.clear-btn:hover {
+    background-color: #e68a00;
+}
+
+footer {
+    text-align: center;
+}
